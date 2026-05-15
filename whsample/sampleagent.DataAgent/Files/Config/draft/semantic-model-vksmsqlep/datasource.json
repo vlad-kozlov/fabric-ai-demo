@@ -1,0 +1,840 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "8acdd184-1bd1-af04-4163-69a77d579f80",
+  "workspaceId": "00000000-0000-0000-0000-000000000000",
+  "dataSourceInstructions": null,
+  "displayName": "vksmsqlep",
+  "type": "semantic_model",
+  "userDescription": null,
+  "metadata": {},
+  "elements": [
+    {
+      "id": "1e279e61-c11d-4e18-97f9-fe6f9491ce8f",
+      "is_selected": true,
+      "display_name": "Date",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "2cc9afd7-395b-49ef-bd6d-5d6f454816be",
+          "is_selected": true,
+          "display_name": "Date",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f206cecf-1309-4189-9017-8aa7ac7632d4",
+          "is_selected": true,
+          "display_name": "DateBKey",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f66cef19-918c-49f9-ac3f-c880a08d7cb0",
+          "is_selected": true,
+          "display_name": "DateID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "775d5a42-d3af-4e71-bf2c-170f2ee0406f",
+          "is_selected": true,
+          "display_name": "DayName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c7bf3318-8c83-4b3a-8daf-5b7592cc78e7",
+          "is_selected": true,
+          "display_name": "DayOfMonth",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4d87df61-303a-4020-a44d-8e9b5606cf5b",
+          "is_selected": true,
+          "display_name": "DayOfQuarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "3c2423c1-9504-4260-88f5-249120c75bc7",
+          "is_selected": true,
+          "display_name": "DayOfWeek",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "de4102b5-d59a-469c-bfc0-3422e6540016",
+          "is_selected": true,
+          "display_name": "DayOfWeekInMonth",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "9f622ac9-83a0-4ea1-9cf0-d0d5af2099ef",
+          "is_selected": true,
+          "display_name": "DayOfWeekInYear",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "5db8fd5f-5d18-4718-a8a6-946e7811ae9e",
+          "is_selected": true,
+          "display_name": "DayOfYear",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "319a7bf3-1eb7-4d2d-b7a0-659620f29334",
+          "is_selected": true,
+          "display_name": "DaySuffix",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4bb24fbf-ef75-4680-afd3-874708778191",
+          "is_selected": true,
+          "display_name": "FirstDayOfMonth",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "cd6cc9db-72c3-4957-96ef-7b5cc406252b",
+          "is_selected": true,
+          "display_name": "FirstDayOfQuarter",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7d26c589-1fdf-4acb-bd27-332ab96d57d1",
+          "is_selected": true,
+          "display_name": "FirstDayOfYear",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d4bdfb49-feae-4a50-99ce-a762a75770d2",
+          "is_selected": true,
+          "display_name": "HolidayUSA",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0421138b-c8f7-4650-93e1-a1116842b6e0",
+          "is_selected": true,
+          "display_name": "IsHolidayUSA",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4fbb9a43-275d-48ca-a2b6-bf60c5f20a86",
+          "is_selected": true,
+          "display_name": "IsWeekday",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c4a68bcd-c460-4567-90d2-bc42b37d56ec",
+          "is_selected": true,
+          "display_name": "LastDayOfMonth",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fd11f93a-2fa3-44b2-b4c1-b2edf820bc8a",
+          "is_selected": true,
+          "display_name": "LastDayOfQuarter",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2722dbd9-45a2-4f5b-bb75-1fa1dba4cb1d",
+          "is_selected": true,
+          "display_name": "LastDayOfYear",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0953899c-b7e7-477a-a69c-c999386175a9",
+          "is_selected": true,
+          "display_name": "MMYYYY",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "ffe404e6-e1de-4b2e-a71a-c826d713ae3a",
+          "is_selected": true,
+          "display_name": "Month",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fd3475ad-5a95-460c-877e-5170dd6ecd9f",
+          "is_selected": true,
+          "display_name": "MonthName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "549edfdd-717e-416d-a8ea-e30f40e0779b",
+          "is_selected": true,
+          "display_name": "MonthOfQuarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "92249496-7e28-4ba8-a4a7-6c1e4839ac6d",
+          "is_selected": true,
+          "display_name": "MonthYear",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2ae9e91f-f73b-45e5-a46e-51c8da11c301",
+          "is_selected": true,
+          "display_name": "Quarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "33e2f404-a24c-4886-a182-a44242e3e5fd",
+          "is_selected": true,
+          "display_name": "QuarterName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6946b3a8-f779-4321-b9b6-b3c316e57e04",
+          "is_selected": true,
+          "display_name": "WeekOfMonth",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1360efb0-ccf3-481f-ac3d-974fa840282b",
+          "is_selected": true,
+          "display_name": "WeekOfQuarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c37e0b74-e12f-4742-bb47-715f7b1f2e71",
+          "is_selected": true,
+          "display_name": "WeekOfYear",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "ecb1d54c-a690-4930-bbe5-8de134f79fb1",
+          "is_selected": true,
+          "display_name": "Year",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e5de4ba1-4499-40a6-aa4c-2cce95accf46",
+          "is_selected": true,
+          "display_name": "YearName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6feabb42-4bc2-49d2-99c9-258cdc82ee3a",
+      "is_selected": true,
+      "display_name": "Geography",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "38fb1938-953a-4bf2-bb91-643d6027735a",
+          "is_selected": true,
+          "display_name": "City",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "78180571-fd6d-4f44-bb98-0cee78c9f56e",
+          "is_selected": true,
+          "display_name": "Country",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1e68f99c-eabb-4627-95b0-2fa1ac465fb2",
+          "is_selected": true,
+          "display_name": "County",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c2674d4a-c81e-49a8-9d6b-f733f5eb0701",
+          "is_selected": true,
+          "display_name": "GeographyID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c2464b28-0518-4691-a47b-3b2ecadee9b5",
+          "is_selected": true,
+          "display_name": "State",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "45684540-97a2-4856-8ae1-ac36f16f7dc1",
+          "is_selected": true,
+          "display_name": "ZipCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "188a699c-f492-414e-b45e-c4bd76a4cbbb",
+          "is_selected": true,
+          "display_name": "ZipCodeBKey",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f23761e3-0977-469c-8962-c96dd1225b1c",
+      "is_selected": true,
+      "display_name": "HackneyLicense",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "96c7723a-ef54-42a1-8685-0b193dda721d",
+          "is_selected": true,
+          "display_name": "HackneyLicenseBKey",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "34ab4023-025e-4d84-939c-ab2a22c27978",
+          "is_selected": true,
+          "display_name": "HackneyLicenseCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "b96bb1d4-6f6c-46a2-a12b-d6210307849f",
+          "is_selected": true,
+          "display_name": "HackneyLicenseID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d92e20a0-319f-4dc4-b15c-f4ec7a409a3e",
+      "is_selected": true,
+      "display_name": "Medallion",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "9a0953f3-f99c-474d-8d1f-5e1cb9379f08",
+          "is_selected": true,
+          "display_name": "MedallionBKey",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f1a23c77-b98d-477c-8981-872d7332baea",
+          "is_selected": true,
+          "display_name": "MedallionCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e0102e09-3f9c-49de-b67e-60aaf24db3c4",
+          "is_selected": true,
+          "display_name": "MedallionID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f1b7f0bd-e99c-4175-827c-a7e4210c9a33",
+      "is_selected": true,
+      "display_name": "Time",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "ed021a29-e697-4fa6-86b7-02944364a1c7",
+          "is_selected": true,
+          "display_name": "DayTimeBucket",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1704a73c-0c04-42de-9142-a12cd106e7e6",
+          "is_selected": true,
+          "display_name": "DayTimeBucketGroupKey",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "494864d9-ae09-425f-acb7-18c7752b2385",
+          "is_selected": true,
+          "display_name": "HourlyBucket",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6c5014bf-8398-4647-8de3-faac439b2560",
+          "is_selected": true,
+          "display_name": "HourNumber",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "44dd0c3d-c117-4823-be28-e1edb0306f58",
+          "is_selected": true,
+          "display_name": "MinuteNumber",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c4f2b415-a390-4e02-997c-b403cc2906b4",
+          "is_selected": true,
+          "display_name": "SecondNumber",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "78cb2559-9f0e-4493-aef6-39ce80dc66a4",
+          "is_selected": true,
+          "display_name": "TimeBKey",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d912b411-c871-4614-84a4-51c6f8f77e8d",
+          "is_selected": true,
+          "display_name": "TimeID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e172b2b4-6f7e-48bf-aee2-04381c95ea5f",
+          "is_selected": true,
+          "display_name": "TimeInSecond",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d7daa76d-5089-4437-8847-bed0c22c7c63",
+      "is_selected": true,
+      "display_name": "Trip",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "11fa380d-f600-4cb0-a86e-dcd89d48a06a",
+          "is_selected": true,
+          "display_name": "DateID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a1d11eb7-2445-4de4-9f10-3ea5b1bc6a62",
+          "is_selected": true,
+          "display_name": "DropoffGeographyID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "b990cdf1-1eae-44c7-9dd5-4d969db2ae97",
+          "is_selected": true,
+          "display_name": "DropoffLatitude",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "457c21e1-d37f-4dd2-add0-3219709da308",
+          "is_selected": true,
+          "display_name": "DropoffLatLong",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1b6c0c67-c46b-4e4b-af3c-1e0b535baa8d",
+          "is_selected": true,
+          "display_name": "DropoffLongitude",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2c4f502f-b631-4a0d-9888-4c20f27100a9",
+          "is_selected": true,
+          "display_name": "DropoffTimeID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "696e2aac-d27c-4104-8bbc-4b7d31290f68",
+          "is_selected": true,
+          "display_name": "FareAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "98680d90-c6c4-4907-8d85-9f345882f9ef",
+          "is_selected": true,
+          "display_name": "HackneyLicenseID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "89546161-ea19-4fb4-97be-11abac968e79",
+          "is_selected": true,
+          "display_name": "MedallionID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "92f35c29-e6dc-4fe2-879d-20bd3ce4090b",
+          "is_selected": true,
+          "display_name": "PassengerCount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7c7037bc-bf36-460f-8fd5-da7f34086ade",
+          "is_selected": true,
+          "display_name": "PaymentType",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4a8bf485-c416-4037-8d39-ca1af9f6d851",
+          "is_selected": true,
+          "display_name": "PickupGeographyID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "40c8864c-4b9c-42ad-9c91-c85a3fc6bd4c",
+          "is_selected": true,
+          "display_name": "PickupLatitude",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dcf4aabd-75b8-4dc4-84d3-e29207e83090",
+          "is_selected": true,
+          "display_name": "PickupLatLong",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4c1e441d-feb4-44ab-a266-14a03e666074",
+          "is_selected": true,
+          "display_name": "PickupLongitude",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "31d37216-cc7e-4c48-9dc8-890ae4e9e53a",
+          "is_selected": true,
+          "display_name": "PickupTimeID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "91954d98-27a7-4343-ae82-00b58d9fc8a4",
+          "is_selected": true,
+          "display_name": "SurchargeAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "76c3a52b-89cc-4a15-bc15-042a1c692b61",
+          "is_selected": true,
+          "display_name": "TaxAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d01f1850-ca05-4fdd-b927-982d8e6dcf1b",
+          "is_selected": true,
+          "display_name": "TipAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "04b283b0-415b-45f7-ab82-ae7a41199f0a",
+          "is_selected": true,
+          "display_name": "TollsAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fb477eec-3d40-4628-83af-97fd97593a2c",
+          "is_selected": true,
+          "display_name": "TotalAmount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "78066e2b-f746-42b1-8863-e36dcb99ff97",
+          "is_selected": true,
+          "display_name": "TripDistanceMiles",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "bc03f688-aff5-4f82-aab5-f936ef567999",
+          "is_selected": true,
+          "display_name": "TripDurationSeconds",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "39275cb3-d735-4534-8ddf-6663505f178d",
+      "is_selected": false,
+      "display_name": "vw_PaymentAnalysis",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "a3d13a6b-47b4-4911-ad3e-8ca57b3ace7d",
+          "is_selected": true,
+          "display_name": "PaymentsCount",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fce4eb62-bdb1-4743-9ed3-eccae8fc2483",
+          "is_selected": true,
+          "display_name": "PaymentType",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8b259697-76b9-4631-879d-689d5e88c6e3",
+          "is_selected": true,
+          "display_name": "TotalAmountProcessed",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f65ad39b-936a-4707-9000-f7c96db98f17",
+      "is_selected": true,
+      "display_name": "Weather",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "e9a736ef-7834-4a79-8f70-969ebbb251fc",
+          "is_selected": true,
+          "display_name": "AvgTemperatureFahrenheit",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "09624d2f-8b7a-4951-9574-f9db6da55531",
+          "is_selected": true,
+          "display_name": "DateID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "42043467-1916-4ead-b83e-589892af567a",
+          "is_selected": true,
+          "display_name": "GeographyID",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1d649a71-4293-4481-ac8c-52551aafa34d",
+          "is_selected": true,
+          "display_name": "PrecipitationInches",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

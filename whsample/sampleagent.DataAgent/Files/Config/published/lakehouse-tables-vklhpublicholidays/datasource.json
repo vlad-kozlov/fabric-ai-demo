@@ -1,0 +1,102 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "f43ae93f-b5a1-bb3e-4072-7f0c22b4a74c",
+  "workspaceId": "00000000-0000-0000-0000-000000000000",
+  "dataSourceInstructions": null,
+  "displayName": "vklhpublicholidays",
+  "type": "lakehouse_tables",
+  "userDescription": "use only for holidays answer ",
+  "metadata": {},
+  "elements": [
+    {
+      "id": "ef0a7b6a-71e3-493b-b879-a6938f206de2",
+      "is_selected": false,
+      "display_name": "Schemas",
+      "type": "schema_grouping",
+      "description": null,
+      "children": [
+        {
+          "id": "e04614e8-6193-42fb-a6b0-4bb36931cbdb",
+          "is_selected": false,
+          "display_name": "dbo",
+          "type": "lakehouse_tables.schema",
+          "description": null,
+          "children": [
+            {
+              "id": "d99fd19e-31a0-43c8-ae1b-9cfacdffe466",
+              "is_selected": false,
+              "display_name": "Tables",
+              "type": "table_grouping",
+              "description": null,
+              "children": [
+                {
+                  "id": "d4e019b4-8662-4085-b8d0-c05997c8944d",
+                  "is_selected": true,
+                  "display_name": "publicholidays",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "5a4f6e80-ab9a-4d9e-a702-2859c334a8df",
+                      "is_selected": true,
+                      "display_name": "countryOrRegion",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "1abc16e5-5fc3-4bb9-afb4-6ddab2718d2d",
+                      "is_selected": true,
+                      "display_name": "holidayName",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0d8943f0-2dda-4925-b786-bbc02184335e",
+                      "is_selected": true,
+                      "display_name": "normalizeHolidayName",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "3b463321-408e-4f94-9f7b-d7748b2d88cb",
+                      "is_selected": true,
+                      "display_name": "isPaidTimeOff",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "bit",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "4a81cfe2-deb3-4c41-9252-ffcb2e736fce",
+                      "is_selected": true,
+                      "display_name": "countryRegionCode",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "876ea4da-1eda-49bd-8ea3-72246e81b5e1",
+                      "is_selected": true,
+                      "display_name": "date",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
