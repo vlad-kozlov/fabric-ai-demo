@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "wwicustomersegmentprofitability"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "deb0a3b3-fcf9-8b65-4222-876606fbc400"
+  }
+}

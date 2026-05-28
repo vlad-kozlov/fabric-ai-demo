@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Pipeline_copy_wii"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b7970b72-7e65-b098-4b90-b341d5e2fccc"
+  }
+}
