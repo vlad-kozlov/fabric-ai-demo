@@ -1,0 +1,381 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphInstance/definition/graphType/1.0.0/schema.json",
+  "nodeTypes": [
+    {
+      "primaryKeyProperties": [
+        "customerIDK"
+      ],
+      "alias": "432ec506-5f58-43b2-9ede-c045ab339d68",
+      "labels": [
+        "Customer"
+      ],
+      "properties": [
+        {
+          "name": "customerIDK",
+          "type": "INT"
+        },
+        {
+          "name": "fullName",
+          "type": "STRING"
+        },
+        {
+          "name": "firstName",
+          "type": "STRING"
+        },
+        {
+          "name": "lastName",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "salesOrderDetailIDK"
+      ],
+      "alias": "c2614b23-b6f0-4b27-b862-f3e0c852891e",
+      "labels": [
+        "Order"
+      ],
+      "properties": [
+        {
+          "name": "salesOrderDetailIDK",
+          "type": "INT"
+        },
+        {
+          "name": "lineTotal",
+          "type": "FLOAT"
+        },
+        {
+          "name": "customerIDFK",
+          "type": "INT"
+        },
+        {
+          "name": "dueDate",
+          "type": "STRING"
+        },
+        {
+          "name": "employeeIDFK",
+          "type": "INT"
+        },
+        {
+          "name": "freight",
+          "type": "FLOAT"
+        },
+        {
+          "name": "orderDate",
+          "type": "STRING"
+        },
+        {
+          "name": "orderQty",
+          "type": "INT"
+        },
+        {
+          "name": "productIDFK",
+          "type": "INT"
+        },
+        {
+          "name": "salesOrderID",
+          "type": "INT"
+        },
+        {
+          "name": "shipDate",
+          "type": "STRING"
+        },
+        {
+          "name": "subTotal",
+          "type": "FLOAT"
+        },
+        {
+          "name": "taxAmt",
+          "type": "FLOAT"
+        },
+        {
+          "name": "totalDue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "unitPrice",
+          "type": "FLOAT"
+        },
+        {
+          "name": "unitPriceDiscount",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "employeeIDK"
+      ],
+      "alias": "4b54b8d9-1f8d-47fc-86d3-437e9b76cdbd",
+      "labels": [
+        "employee"
+      ],
+      "properties": [
+        {
+          "name": "employeeIDK",
+          "type": "INT"
+        },
+        {
+          "name": "employeeFullName",
+          "type": "STRING"
+        },
+        {
+          "name": "gender",
+          "type": "STRING"
+        },
+        {
+          "name": "group",
+          "type": "STRING"
+        },
+        {
+          "name": "jobTitle",
+          "type": "STRING"
+        },
+        {
+          "name": "managerID",
+          "type": "STRING"
+        },
+        {
+          "name": "maritalStatus",
+          "type": "STRING"
+        },
+        {
+          "name": "organizationLevel",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "categoryIDK"
+      ],
+      "alias": "97ad2a44-0c02-47d9-9550-1e5193057213",
+      "labels": [
+        "productcategory"
+      ],
+      "properties": [
+        {
+          "name": "categoryIDK",
+          "type": "INT"
+        },
+        {
+          "name": "categoryName",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "productIDK"
+      ],
+      "alias": "f257edd5-5fa5-428c-946b-75f55df7536b",
+      "labels": [
+        "product"
+      ],
+      "properties": [
+        {
+          "name": "productIDK",
+          "type": "INT"
+        },
+        {
+          "name": "listPrice",
+          "type": "FLOAT"
+        },
+        {
+          "name": "makeFlag",
+          "type": "INT"
+        },
+        {
+          "name": "modelName",
+          "type": "STRING"
+        },
+        {
+          "name": "productName",
+          "type": "STRING"
+        },
+        {
+          "name": "productNumber",
+          "type": "STRING"
+        },
+        {
+          "name": "standardCost",
+          "type": "FLOAT"
+        },
+        {
+          "name": "subCategoryIDFK",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "subCategoryIDK"
+      ],
+      "alias": "edecb7a3-c35e-41f0-878e-40c6150e7b7e",
+      "labels": [
+        "productsubcategory"
+      ],
+      "properties": [
+        {
+          "name": "subCategoryIDK",
+          "type": "INT"
+        },
+        {
+          "name": "categoryIDFK",
+          "type": "INT"
+        },
+        {
+          "name": "subCategoryName",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "productIDFK"
+      ],
+      "alias": "9ea0b6bb-c078-4b04-af25-d8d4423372a8",
+      "labels": [
+        "vendorproduct"
+      ],
+      "properties": [
+        {
+          "name": "productIDFK",
+          "type": "INT"
+        },
+        {
+          "name": "vendorIDFK",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "vendorIDK"
+      ],
+      "alias": "4a36d2a4-68c8-4aec-a4a1-e91e2b9667c6",
+      "labels": [
+        "vendor"
+      ],
+      "properties": [
+        {
+          "name": "vendorIDK",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "primaryKeyProperties": [
+        "country"
+      ],
+      "alias": "91918865-fe3f-4e25-a23d-b546bc765b11",
+      "labels": [
+        "Country"
+      ],
+      "properties": [
+        {
+          "name": "country",
+          "type": "STRING"
+        },
+        {
+          "name": "territory",
+          "type": "STRING"
+        }
+      ]
+    }
+  ],
+  "edgeTypes": [
+    {
+      "sourceNodeType": {
+        "alias": "432ec506-5f58-43b2-9ede-c045ab339d68"
+      },
+      "alias": "bedf901a-2880-402d-b0f4-f4d166112cba",
+      "destinationNodeType": {
+        "alias": "c2614b23-b6f0-4b27-b862-f3e0c852891e"
+      },
+      "labels": [
+        "purchases"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "4b54b8d9-1f8d-47fc-86d3-437e9b76cdbd"
+      },
+      "alias": "c9c73c38-e77a-41ef-a951-96789606ab8b",
+      "destinationNodeType": {
+        "alias": "c2614b23-b6f0-4b27-b862-f3e0c852891e"
+      },
+      "labels": [
+        "sells"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "c2614b23-b6f0-4b27-b862-f3e0c852891e"
+      },
+      "alias": "d5baf464-ed50-43ff-a220-33932f5a54a4",
+      "destinationNodeType": {
+        "alias": "f257edd5-5fa5-428c-946b-75f55df7536b"
+      },
+      "labels": [
+        "contains"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "f257edd5-5fa5-428c-946b-75f55df7536b"
+      },
+      "alias": "d9bd91fd-e929-4171-842f-449c172ce277",
+      "destinationNodeType": {
+        "alias": "edecb7a3-c35e-41f0-878e-40c6150e7b7e"
+      },
+      "labels": [
+        "isOfType"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "edecb7a3-c35e-41f0-878e-40c6150e7b7e"
+      },
+      "alias": "db8ab211-48f6-4374-ab7a-20bf1b046e44",
+      "destinationNodeType": {
+        "alias": "97ad2a44-0c02-47d9-9550-1e5193057213"
+      },
+      "labels": [
+        "belongsTo"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "4a36d2a4-68c8-4aec-a4a1-e91e2b9667c6"
+      },
+      "alias": "8f1137fd-c7ad-4272-9fba-b52b51a45fe1",
+      "destinationNodeType": {
+        "alias": "f257edd5-5fa5-428c-946b-75f55df7536b"
+      },
+      "labels": [
+        "produces"
+      ],
+      "properties": []
+    },
+    {
+      "sourceNodeType": {
+        "alias": "4b54b8d9-1f8d-47fc-86d3-437e9b76cdbd"
+      },
+      "alias": "6c7ef91e-4c6b-48a4-bd48-64ef5becdeac",
+      "destinationNodeType": {
+        "alias": "91918865-fe3f-4e25-a23d-b546bc765b11"
+      },
+      "labels": [
+        "livesIn"
+      ],
+      "properties": []
+    }
+  ]
+}

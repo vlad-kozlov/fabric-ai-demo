@@ -1,0 +1,876 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "e7662c82-f6f7-bb6d-42d2-6b11192f99a0",
+  "workspaceId": "00000000-0000-0000-0000-000000000000",
+  "dataSourceInstructions": null,
+  "displayName": "wwiampledw",
+  "type": "data_warehouse",
+  "userDescription": null,
+  "metadata": {},
+  "elements": [
+    {
+      "id": "06eba14b-180d-442f-a20f-d1536997a6a5",
+      "is_selected": false,
+      "display_name": "Schemas",
+      "type": "schema_grouping",
+      "description": null,
+      "children": [
+        {
+          "id": "9f64ba07-ae06-4beb-90c7-640dc00b3483",
+          "is_selected": false,
+          "display_name": "dbo",
+          "type": "warehouse_tables.schema",
+          "description": null,
+          "children": [
+            {
+              "id": "2836d6bc-6f72-47c7-9186-5867839354e3",
+              "is_selected": false,
+              "display_name": "Tables",
+              "type": "table_grouping",
+              "description": null,
+              "children": [
+                {
+                  "id": "aff2ae0b-ffdc-452b-8b37-e6ae1c6c6c73",
+                  "is_selected": true,
+                  "display_name": "Date",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "1f09a6ed-ab2f-4f31-916b-fb224941a850",
+                      "is_selected": true,
+                      "display_name": "DateID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e87e32ff-4f71-409d-86dc-6c5da1177b48",
+                      "is_selected": true,
+                      "display_name": "Date",
+                      "type": "warehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e152ddc1-d468-4fb9-923c-75ca2345cc27",
+                      "is_selected": true,
+                      "display_name": "DateBKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e19ee4ec-f825-40a9-a1e0-a1920a880462",
+                      "is_selected": true,
+                      "display_name": "DayOfMonth",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0ea35f3b-131e-46e2-9e8d-ec7920d723c0",
+                      "is_selected": true,
+                      "display_name": "DaySuffix",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "8dc57d60-fbf2-47fe-8187-4cfc65438885",
+                      "is_selected": true,
+                      "display_name": "DayName",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "df663f20-7b55-485a-a22e-2e2cba68da30",
+                      "is_selected": true,
+                      "display_name": "DayOfWeek",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "80e83e60-0f46-45eb-8093-69924b4a2890",
+                      "is_selected": true,
+                      "display_name": "DayOfWeekInMonth",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "18f472f2-e6fc-4789-853a-a5b4369e3a39",
+                      "is_selected": true,
+                      "display_name": "DayOfWeekInYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "3a5d7887-d804-4f65-89b6-023583824dca",
+                      "is_selected": true,
+                      "display_name": "DayOfQuarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d241d57d-0c0c-4d52-a8ed-2169ef23d36b",
+                      "is_selected": true,
+                      "display_name": "DayOfYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "3356a724-7ac5-4d5e-bc23-0fdf2340f03c",
+                      "is_selected": true,
+                      "display_name": "WeekOfMonth",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "25176798-b72c-4a15-a4b9-430b214ce93d",
+                      "is_selected": true,
+                      "display_name": "WeekOfQuarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "495264b7-81ef-4c4b-8850-69800b43e679",
+                      "is_selected": true,
+                      "display_name": "WeekOfYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "267d605c-f54b-46d0-b126-bccd3816d7b3",
+                      "is_selected": true,
+                      "display_name": "Month",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "3b084af1-a467-4bd6-b010-9e60e8105af6",
+                      "is_selected": true,
+                      "display_name": "MonthName",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ff93ad09-43ff-416f-a7bd-05d00c8a005d",
+                      "is_selected": true,
+                      "display_name": "MonthOfQuarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "6ba7814e-8768-49a2-a3f3-847ad5c58800",
+                      "is_selected": true,
+                      "display_name": "Quarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "513dbb2b-435e-463c-a164-a811cbc44165",
+                      "is_selected": true,
+                      "display_name": "QuarterName",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ab72a2ac-3726-443c-bfed-71831025d428",
+                      "is_selected": true,
+                      "display_name": "Year",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "8e970a4b-3291-4c13-9630-09b679e027e1",
+                      "is_selected": true,
+                      "display_name": "YearName",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "77c4154c-1d8f-4269-b317-59a6c13a2ed0",
+                      "is_selected": true,
+                      "display_name": "MonthYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "cbf7c453-8511-4772-b437-41d0f8b47706",
+                      "is_selected": true,
+                      "display_name": "MMYYYY",
+                      "type": "warehouse_tables.column",
+                      "data_type": "char",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9c0594f9-dd33-4fc2-be0b-ac4c03f25d74",
+                      "is_selected": true,
+                      "display_name": "FirstDayOfMonth",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "32a1db1e-5ca4-489d-a870-1caa52bac148",
+                      "is_selected": true,
+                      "display_name": "LastDayOfMonth",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "803d7a19-8805-4df6-a7e1-ff6a3aa785fd",
+                      "is_selected": true,
+                      "display_name": "FirstDayOfQuarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "7855b6b3-1ace-461e-a655-559b3d6da725",
+                      "is_selected": true,
+                      "display_name": "LastDayOfQuarter",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "16a2ef23-e7fd-4637-99c7-896bed6c1bd1",
+                      "is_selected": true,
+                      "display_name": "FirstDayOfYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9e22e2c3-eead-4ab8-98ca-ff61346af861",
+                      "is_selected": true,
+                      "display_name": "LastDayOfYear",
+                      "type": "warehouse_tables.column",
+                      "data_type": "date",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "71d0e858-5db8-473d-ba64-d0d03d184c75",
+                      "is_selected": true,
+                      "display_name": "IsHolidayUSA",
+                      "type": "warehouse_tables.column",
+                      "data_type": "bit",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e209b093-3752-4c09-8f37-346d44158a60",
+                      "is_selected": true,
+                      "display_name": "IsWeekday",
+                      "type": "warehouse_tables.column",
+                      "data_type": "bit",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c65aec17-eea1-470e-9e02-0103c53ebe57",
+                      "is_selected": true,
+                      "display_name": "HolidayUSA",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "e9562b68-a301-4872-a8fd-358982daebdf",
+                  "is_selected": true,
+                  "display_name": "Geography",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "9c0d09ba-6ea9-4159-a74a-f5842a3404e9",
+                      "is_selected": true,
+                      "display_name": "GeographyID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d26a58ed-f79c-4640-bb8f-78b50e94aa71",
+                      "is_selected": true,
+                      "display_name": "ZipCodeBKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "5aa502a6-b2dc-4837-8524-de5a10a47afd",
+                      "is_selected": true,
+                      "display_name": "County",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c9f70b22-cc54-4c18-853f-3b25147171b3",
+                      "is_selected": true,
+                      "display_name": "City",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ab8f04ca-185b-44fc-b6df-812f72b28504",
+                      "is_selected": true,
+                      "display_name": "State",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "7d1d5d30-af20-4123-9bdc-4fb246e113ce",
+                      "is_selected": true,
+                      "display_name": "Country",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "817fcdb7-1536-4226-a144-1ac362d6e431",
+                      "is_selected": true,
+                      "display_name": "ZipCode",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "d71fbc2e-857b-4adc-9148-e0b759d912d3",
+                  "is_selected": true,
+                  "display_name": "HackneyLicense",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "854491c0-1e3b-4aa9-a1ea-dcfe2555708f",
+                      "is_selected": true,
+                      "display_name": "HackneyLicenseID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "1b1bc2e3-bfe1-49e5-8aee-1b54e63ad16b",
+                      "is_selected": true,
+                      "display_name": "HackneyLicenseBKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "912cf296-3045-4775-9ab1-ada471bb441d",
+                      "is_selected": true,
+                      "display_name": "HackneyLicenseCode",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "4402b31f-ec0e-4a70-a220-d57683d3e902",
+                  "is_selected": true,
+                  "display_name": "Medallion",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "d4545bb0-a061-48dd-87e2-ecf5401306ea",
+                      "is_selected": true,
+                      "display_name": "MedallionID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "b2ecbb45-b7ee-49a5-ac92-a0052d89f3e5",
+                      "is_selected": true,
+                      "display_name": "MedallionBKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "89afc7b6-7cd5-4200-ac43-1b17d8966705",
+                      "is_selected": true,
+                      "display_name": "MedallionCode",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "712be804-86e1-4ee9-84ec-b31f984c46d9",
+                  "is_selected": false,
+                  "display_name": "Time",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "16f3a0f5-fcc2-4ecf-baa3-f49917dfd189",
+                      "is_selected": true,
+                      "display_name": "TimeID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "23993d31-41c8-4351-b9a8-1a4cd169daca",
+                      "is_selected": true,
+                      "display_name": "TimeBKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d7124d99-597c-4248-8658-b2ea003881a0",
+                      "is_selected": true,
+                      "display_name": "HourNumber",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9f35b1fc-6cba-4663-8f03-5d19ce0f6799",
+                      "is_selected": true,
+                      "display_name": "MinuteNumber",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "81e7c143-08cd-49d0-83ae-84990da18dd3",
+                      "is_selected": true,
+                      "display_name": "SecondNumber",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "97c2e7bc-d51a-4958-aaeb-7d1f887f0b7a",
+                      "is_selected": true,
+                      "display_name": "TimeInSecond",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "76c56c2c-ca57-4337-a836-df8b4e64e6f6",
+                      "is_selected": true,
+                      "display_name": "HourlyBucket",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0551baa3-8044-4bf6-ae6c-b55fff32916c",
+                      "is_selected": true,
+                      "display_name": "DayTimeBucketGroupKey",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9b84da6f-4e80-4f1b-a0d0-1391f07e7f47",
+                      "is_selected": true,
+                      "display_name": "DayTimeBucket",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0198babe-e104-4340-a6de-1c9791c06acc",
+                  "is_selected": false,
+                  "display_name": "Trip",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "2e3a5c76-65d1-4882-89a7-dca6e61c7c7d",
+                      "is_selected": true,
+                      "display_name": "DateID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d5d262b8-d630-4823-a409-dde6240b0350",
+                      "is_selected": true,
+                      "display_name": "MedallionID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "a7998ba5-0178-4eea-a436-781b50fc87b9",
+                      "is_selected": true,
+                      "display_name": "HackneyLicenseID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "45444161-d8a2-4aae-8bdb-e8f356e521c9",
+                      "is_selected": true,
+                      "display_name": "PickupTimeID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "4ee807e1-ce1c-48ae-921a-df3706c05b88",
+                      "is_selected": true,
+                      "display_name": "DropoffTimeID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ca6e4044-c346-4960-a120-db5012292f5f",
+                      "is_selected": true,
+                      "display_name": "PickupGeographyID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c425696a-90d3-4c7d-9cce-670babd4de61",
+                      "is_selected": true,
+                      "display_name": "DropoffGeographyID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "5446b74b-72fe-4f06-b012-387c430499d4",
+                      "is_selected": true,
+                      "display_name": "PickupLatitude",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c068dc5f-df23-4ae3-bd74-4fa9faa5dbeb",
+                      "is_selected": true,
+                      "display_name": "PickupLongitude",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d56c59b5-8e45-4e10-8ffa-4caf849b40c0",
+                      "is_selected": true,
+                      "display_name": "PickupLatLong",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "856e32a2-37ed-405f-8cfe-7191178f1a66",
+                      "is_selected": true,
+                      "display_name": "DropoffLatitude",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "06282996-2cca-4b36-ba87-08d3a22110de",
+                      "is_selected": true,
+                      "display_name": "DropoffLongitude",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "13c75b7a-877d-47d6-8b97-5434b58d0365",
+                      "is_selected": true,
+                      "display_name": "DropoffLatLong",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9110e3d8-9934-4c3e-b06b-b65e74973422",
+                      "is_selected": true,
+                      "display_name": "PassengerCount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ea2cca2c-7277-4079-83d3-90ab729dad45",
+                      "is_selected": true,
+                      "display_name": "TripDurationSeconds",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "dc1756f6-111a-4ca6-9293-259f742f1f48",
+                      "is_selected": true,
+                      "display_name": "TripDistanceMiles",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "83c27b4e-21c4-4903-b574-d97b4f051857",
+                      "is_selected": true,
+                      "display_name": "PaymentType",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "4f504d4f-01b9-4b95-a63e-79777492eec3",
+                      "is_selected": true,
+                      "display_name": "FareAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ba5f01ad-d35c-4e91-bb0f-e28e3edfca84",
+                      "is_selected": true,
+                      "display_name": "SurchargeAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "4dd04a15-cf4e-4985-a0c2-83cf88e9d210",
+                      "is_selected": true,
+                      "display_name": "TaxAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "6a0a0d08-b9f5-4b6e-b874-8b0803292b24",
+                      "is_selected": true,
+                      "display_name": "TipAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c637d7c5-0ed8-4745-aa26-75a1adbfd6a2",
+                      "is_selected": true,
+                      "display_name": "TollsAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e6844e57-baae-43e2-81e6-0bc4f63243f9",
+                      "is_selected": true,
+                      "display_name": "TotalAmount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "955d1ec0-29b5-4434-ae11-2a9d6f865ad3",
+                  "is_selected": false,
+                  "display_name": "Weather",
+                  "type": "warehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "b8e63402-ead3-4d15-8140-8f197448fb20",
+                      "is_selected": true,
+                      "display_name": "DateID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "af721077-b1c6-4080-a4ab-2b1083c22d8b",
+                      "is_selected": true,
+                      "display_name": "GeographyID",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "7efbce5b-ca8b-419d-81c5-8b68b899b2a2",
+                      "is_selected": true,
+                      "display_name": "PrecipitationInches",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0d1f7d8e-52fd-4ef7-b120-93978c5ddf61",
+                      "is_selected": true,
+                      "display_name": "AvgTemperatureFahrenheit",
+                      "type": "warehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d269e877-40fc-4e33-9aea-e39943736573",
+              "is_selected": false,
+              "display_name": "Views",
+              "type": "view_grouping",
+              "description": null,
+              "children": [
+                {
+                  "id": "bd4370e4-f72f-45e4-a93d-f8b8bb6201ea",
+                  "is_selected": false,
+                  "display_name": "vw_PaymentAnalysis",
+                  "type": "warehouse_tables.view",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "e41e7699-40b1-4302-84a3-1b3cd30e75bb",
+                      "is_selected": true,
+                      "display_name": "PaymentType",
+                      "type": "warehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "161664cd-6138-44e0-a8cb-fad1673d0b57",
+                      "is_selected": true,
+                      "display_name": "PaymentsCount",
+                      "type": "warehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "3e3ab771-fdcf-419f-83b9-e7d2605df195",
+                      "is_selected": true,
+                      "display_name": "TotalAmountProcessed",
+                      "type": "warehouse_tables.column",
+                      "data_type": "decimal",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

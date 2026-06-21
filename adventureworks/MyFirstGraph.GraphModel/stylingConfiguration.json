@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphInstance/definition/stylingConfiguration/1.0.0/schema.json",
+  "modelLayout": {
+    "positions": {
+      "c2614b23-b6f0-4b27-b862-f3e0c852891e": {
+        "x": 41.333332,
+        "y": 94.5
+      }
+    },
+    "styles": {},
+    "pan": {
+      "x": 499.9544,
+      "y": 273.0276
+    },
+    "zoomLevel": 1.4660739
+  },
+  "visualFormat": {},
+  "scenario": "GraphClient"
+}

@@ -1,0 +1,345 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphInstance/definition/graphDefinition/1.0.0/schema.json",
+  "nodeTables": [
+    {
+      "nodeTypeAlias": "432ec506-5f58-43b2-9ede-c045ab339d68",
+      "id": "617e06b8-4111-4a77-9293-2506681f27a6",
+      "dataSourceName": "adventureworks_customers",
+      "propertyMappings": [
+        {
+          "propertyName": "customerIDK",
+          "sourceColumn": "CustomerID_K"
+        },
+        {
+          "propertyName": "fullName",
+          "sourceColumn": "FullName"
+        },
+        {
+          "propertyName": "firstName",
+          "sourceColumn": "FirstName"
+        },
+        {
+          "propertyName": "lastName",
+          "sourceColumn": "LastName"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "c2614b23-b6f0-4b27-b862-f3e0c852891e",
+      "id": "110dc04c-393e-464b-9d76-9b72f991f1ec",
+      "dataSourceName": "adventureworks_orders",
+      "propertyMappings": [
+        {
+          "propertyName": "salesOrderDetailIDK",
+          "sourceColumn": "SalesOrderDetailID_K"
+        },
+        {
+          "propertyName": "lineTotal",
+          "sourceColumn": "LineTotal"
+        },
+        {
+          "propertyName": "customerIDFK",
+          "sourceColumn": "CustomerID_FK"
+        },
+        {
+          "propertyName": "dueDate",
+          "sourceColumn": "DueDate"
+        },
+        {
+          "propertyName": "employeeIDFK",
+          "sourceColumn": "EmployeeID_FK"
+        },
+        {
+          "propertyName": "freight",
+          "sourceColumn": "Freight"
+        },
+        {
+          "propertyName": "orderDate",
+          "sourceColumn": "OrderDate"
+        },
+        {
+          "propertyName": "orderQty",
+          "sourceColumn": "OrderQty"
+        },
+        {
+          "propertyName": "productIDFK",
+          "sourceColumn": "ProductID_FK"
+        },
+        {
+          "propertyName": "salesOrderID",
+          "sourceColumn": "SalesOrderID"
+        },
+        {
+          "propertyName": "shipDate",
+          "sourceColumn": "ShipDate"
+        },
+        {
+          "propertyName": "subTotal",
+          "sourceColumn": "SubTotal"
+        },
+        {
+          "propertyName": "taxAmt",
+          "sourceColumn": "TaxAmt"
+        },
+        {
+          "propertyName": "totalDue",
+          "sourceColumn": "TotalDue"
+        },
+        {
+          "propertyName": "unitPrice",
+          "sourceColumn": "UnitPrice"
+        },
+        {
+          "propertyName": "unitPriceDiscount",
+          "sourceColumn": "UnitPriceDiscount"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "4b54b8d9-1f8d-47fc-86d3-437e9b76cdbd",
+      "id": "f2aa32e3-744a-4cff-84a4-7b3e48b638e1",
+      "dataSourceName": "adventureworks_employees",
+      "propertyMappings": [
+        {
+          "propertyName": "employeeIDK",
+          "sourceColumn": "EmployeeID_K"
+        },
+        {
+          "propertyName": "employeeFullName",
+          "sourceColumn": "EmployeeFullName"
+        },
+        {
+          "propertyName": "gender",
+          "sourceColumn": "Gender"
+        },
+        {
+          "propertyName": "group",
+          "sourceColumn": "Group"
+        },
+        {
+          "propertyName": "jobTitle",
+          "sourceColumn": "JobTitle"
+        },
+        {
+          "propertyName": "managerID",
+          "sourceColumn": "ManagerID"
+        },
+        {
+          "propertyName": "maritalStatus",
+          "sourceColumn": "MaritalStatus"
+        },
+        {
+          "propertyName": "organizationLevel",
+          "sourceColumn": "OrganizationLevel"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "97ad2a44-0c02-47d9-9550-1e5193057213",
+      "id": "3eedddf8-99ac-4731-8208-a6820d352bd9",
+      "dataSourceName": "adventureworks_productcategories",
+      "propertyMappings": [
+        {
+          "propertyName": "categoryIDK",
+          "sourceColumn": "CategoryID_K"
+        },
+        {
+          "propertyName": "categoryName",
+          "sourceColumn": "CategoryName"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "f257edd5-5fa5-428c-946b-75f55df7536b",
+      "id": "5ddd7fea-42d9-4b69-8254-e737f5a19e97",
+      "dataSourceName": "adventureworks_products",
+      "propertyMappings": [
+        {
+          "propertyName": "productIDK",
+          "sourceColumn": "ProductID_K"
+        },
+        {
+          "propertyName": "listPrice",
+          "sourceColumn": "ListPrice"
+        },
+        {
+          "propertyName": "makeFlag",
+          "sourceColumn": "MakeFlag"
+        },
+        {
+          "propertyName": "modelName",
+          "sourceColumn": "ModelName"
+        },
+        {
+          "propertyName": "productName",
+          "sourceColumn": "ProductName"
+        },
+        {
+          "propertyName": "productNumber",
+          "sourceColumn": "ProductNumber"
+        },
+        {
+          "propertyName": "standardCost",
+          "sourceColumn": "StandardCost"
+        },
+        {
+          "propertyName": "subCategoryIDFK",
+          "sourceColumn": "SubCategoryID_FK"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "edecb7a3-c35e-41f0-878e-40c6150e7b7e",
+      "id": "c178d817-3bd9-4cf3-8b7e-bc1732d0c522",
+      "dataSourceName": "adventureworks_productsubcategories",
+      "propertyMappings": [
+        {
+          "propertyName": "subCategoryIDK",
+          "sourceColumn": "SubCategoryID_K"
+        },
+        {
+          "propertyName": "categoryIDFK",
+          "sourceColumn": "CategoryID_FK"
+        },
+        {
+          "propertyName": "subCategoryName",
+          "sourceColumn": "SubCategoryName"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "9ea0b6bb-c078-4b04-af25-d8d4423372a8",
+      "id": "4d327791-5feb-4ca2-9da8-902acb719afb",
+      "dataSourceName": "adventureworks_vendorproduct",
+      "propertyMappings": [
+        {
+          "propertyName": "productIDFK",
+          "sourceColumn": "ProductID_FK"
+        },
+        {
+          "propertyName": "vendorIDFK",
+          "sourceColumn": "VendorID_FK"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "4a36d2a4-68c8-4aec-a4a1-e91e2b9667c6",
+      "id": "c0360ec5-c458-44ef-9e0d-66186c669ee5",
+      "dataSourceName": "adventureworks_vendors",
+      "propertyMappings": [
+        {
+          "propertyName": "vendorIDK",
+          "sourceColumn": "VendorID_K"
+        }
+      ]
+    },
+    {
+      "nodeTypeAlias": "91918865-fe3f-4e25-a23d-b546bc765b11",
+      "id": "7ebd0c38-d9b2-4ef2-9b3c-96434f1cbb27",
+      "dataSourceName": "adventureworks_employees",
+      "propertyMappings": [
+        {
+          "propertyName": "country",
+          "sourceColumn": "Country"
+        },
+        {
+          "propertyName": "territory",
+          "sourceColumn": "Territory"
+        }
+      ]
+    }
+  ],
+  "edgeTables": [
+    {
+      "edgeTypeAlias": "bedf901a-2880-402d-b0f4-f4d166112cba",
+      "id": "06ba624d-8781-4ab2-9b5e-9e78e7a6acf3",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_orders",
+      "sourceNodeKeyColumns": [
+        "CustomerID_FK"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "SalesOrderDetailID_K"
+      ]
+    },
+    {
+      "edgeTypeAlias": "c9c73c38-e77a-41ef-a951-96789606ab8b",
+      "id": "5159d97e-a242-4ae0-a334-99d7f3e139e4",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_orders",
+      "sourceNodeKeyColumns": [
+        "EmployeeID_FK"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "SalesOrderDetailID_K"
+      ]
+    },
+    {
+      "edgeTypeAlias": "d5baf464-ed50-43ff-a220-33932f5a54a4",
+      "id": "dbc83ede-2cd9-49c1-a21e-145a1080fb90",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_orders",
+      "sourceNodeKeyColumns": [
+        "SalesOrderDetailID_K"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "ProductID_FK"
+      ]
+    },
+    {
+      "edgeTypeAlias": "d9bd91fd-e929-4171-842f-449c172ce277",
+      "id": "188ccdfd-fba3-49cb-8dd9-1b31f2e92979",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_products",
+      "sourceNodeKeyColumns": [
+        "ProductID_K"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "SubCategoryID_FK"
+      ]
+    },
+    {
+      "edgeTypeAlias": "db8ab211-48f6-4374-ab7a-20bf1b046e44",
+      "id": "b1ab871d-f4c5-4ae1-a718-92c5059f3379",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_productsubcategories",
+      "sourceNodeKeyColumns": [
+        "SubCategoryID_K"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "CategoryID_FK"
+      ]
+    },
+    {
+      "edgeTypeAlias": "8f1137fd-c7ad-4272-9fba-b52b51a45fe1",
+      "id": "f223d0b2-82fc-411f-a412-27c3db35f3fe",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_vendorproduct",
+      "sourceNodeKeyColumns": [
+        "VendorID_FK"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "ProductID_FK"
+      ]
+    },
+    {
+      "edgeTypeAlias": "6c7ef91e-4c6b-48a4-bd48-64ef5becdeac",
+      "id": "d15ab73d-108e-431e-94e0-4859c247579f",
+      "edgeIdMapping": null,
+      "dataSourceName": "adventureworks_employees",
+      "sourceNodeKeyColumns": [
+        "EmployeeID_K"
+      ],
+      "propertyMappings": [],
+      "destinationNodeKeyColumns": [
+        "Country"
+      ]
+    }
+  ]
+}

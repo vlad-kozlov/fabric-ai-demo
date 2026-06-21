@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphInstance/definition/dataSources/1.0.0/schema.json",
+  "dataSources": [
+    {
+      "name": "adventureworks_orders",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_orders"
+      }
+    },
+    {
+      "name": "adventureworks_customers",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_customers"
+      }
+    },
+    {
+      "name": "adventureworks_vendors",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_vendors"
+      }
+    },
+    {
+      "name": "adventureworks_vendorproduct",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_vendorproduct"
+      }
+    },
+    {
+      "name": "adventureworks_productcategories",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_productcategories"
+      }
+    },
+    {
+      "name": "adventureworks_products",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_products"
+      }
+    },
+    {
+      "name": "adventureworks_productsubcategories",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_productsubcategories"
+      }
+    },
+    {
+      "name": "adventureworks_employees",
+      "type": "DeltaTable",
+      "properties": {
+        "path": "abfss://66154246-634f-4485-88d1-1634ff4cf0af@onelake.dfs.fabric.microsoft.com/a72b2f71-2c80-4b84-9b5d-07a1543bbe85/Tables/adventureworks_employees"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "GraphModel",
+    "displayName": "MyFirstGraph"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "38863128-8857-8a56-4bc0-7b9e970ce68a"
+  }
+}
